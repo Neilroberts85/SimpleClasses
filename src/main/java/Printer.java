@@ -19,7 +19,7 @@ public class Printer {
     public void print(int inputPages, int inputCopies){
         if((inputPages*inputCopies) <= this.paperLeft){
             this.paperLeft -= (inputPages*inputCopies);
-            this.tonerLeft -= 1;
+            this.tonerLeft -= (inputPages*inputCopies);
         }
     }
 

@@ -1,9 +1,6 @@
 public class Calculator {
 
-
-
-
-public Calculator(){
+    public Calculator(){
 
 }
 
